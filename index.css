@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+
+#main-container {
+    width: 100%;
+    height: 100vh;
+    padding: 4% 8%;
+    box-sizing: border-box;
+}
+
+#card-wrapper {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-border {
+    background-color: #2065b1;
+    overflow: hidden;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    top: 15%;
+    left: 0%;
+    transform: translate();
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+/* .small {
+    font-size: 24px;
+}
+
+.big {
+    font-size: 48px;
+} */
+
+.show {
+    display: block;
+
+}
+
+.hide {
+    display: none;
+    left: -270px;
+}
+
+.logo {
+    justify-content: center;
+    margin: 10px;
+}
+
+#todo-input {
+    font-size: 24px;
+    padding: 12px 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    font-weight: 500;
+    font-size: 20px;
+    color: #777;
+    margin-right: 50%;
+}
+
+.color-select {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+    margin-right: 50%;
+}
+
+.colorbox {
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.red {
+    background-color: #ca3d22;
+}
+
+.black {
+    background-color: #23211f;
+}
+
+.blue {
+    background-color: #565681;
+}
+
+.purple {
+    background-color: #8a5362;
+}
+
+.pink {
+    background-color: #e9c7be;
+}
+
+.feature-box {
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+    margin-right: 50%;
+    margin-top: 40px;
+
+}
+
+.watch-time {
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+}
+
+.watch-region {
+    position: relative;
+}
+
+.watch-time {
+    position: absolute;
+    left: 150px;
+    top: 145px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+
+.button {
+    margin: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+    font-weight: 400;
+    /* border: none; */
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: #ccc;
+    display: inline-block;
+    padding: 12px;
+    padding-bottom: 32px;
+    text-align: center;
+
+}
+
+.time {
+    height: 40px;
+}
+
+.heart-rate {
+    height: 40px;
+
+}
+
+.button-common-box {
+    margin-left: 390px;
+}
+
+#heart-photo {
+    position: absolute;
+    left: 160px;
+    top: 120px;
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+#heart-rate-text {
+    position: absolute;
+    left: 175px;
+    top: 210px;
+    font-size: 40px;
+    color: white;
+}
+
+#heart-rate-container {
+    position: absolute;
+}
+
+#buy-button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fec81d;
+    width: fit-content;
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+}
